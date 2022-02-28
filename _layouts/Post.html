@@ -168,6 +168,15 @@
                 </div>
             {%- endif -%}
 
+            <!--- CASE 6 :  Notes Listing page -->   
+
+            {%- if page.permalink == "/about" -%}
+                <div class="column is-half">
+                    {%- include About.html -%}
+                    {%- include Footer.html -%}             
+                </div>
+            {%- endif -%}
+
         </div>
     </section>     
 </body>
