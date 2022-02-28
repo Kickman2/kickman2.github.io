@@ -1,0 +1,4 @@
+---
+layout: About
+permalink: /about
+---
